@@ -1,0 +1,1229 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  leafer-editor:
+    specifier: ^1.0.10
+    version: 1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+  leafer-ui:
+    specifier: ^1.0.10
+    version: 1.0.10
+  leafer-vue:
+    specifier: ^3.1.1
+    version: 3.1.1(leafer-ui@1.0.10)
+  openseadragon:
+    specifier: ^5.0.0
+    version: 5.0.0
+  vue:
+    specifier: ^3.5.13
+    version: 3.5.13
+
+devDependencies:
+  '@vitejs/plugin-vue':
+    specifier: ^5.2.1
+    version: 5.2.1(vite@6.0.1)(vue@3.5.13)
+  vite:
+    specifier: ^6.0.1
+    version: 6.0.1
+
+packages:
+
+  /@babel/helper-string-parser@7.25.9:
+    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==, tarball: https://registry.npmmirror.com/@babel/helper-string-parser/-/helper-string-parser-7.25.9.tgz}
+    engines: {node: '>=6.9.0'}
+
+  /@babel/helper-validator-identifier@7.25.9:
+    resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==, tarball: https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.9.tgz}
+    engines: {node: '>=6.9.0'}
+
+  /@babel/parser@7.26.2:
+    resolution: {integrity: sha512-DWMCZH9WA4Maitz2q21SRKHo9QXZxkDsbNZoVD62gusNtNBBqDg9i7uOhASfTfIGNzW+O+r7+jAlM8dwphcJKQ==, tarball: https://registry.npmmirror.com/@babel/parser/-/parser-7.26.2.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': 7.26.0
+
+  /@babel/types@7.26.0:
+    resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==, tarball: https://registry.npmmirror.com/@babel/types/-/types-7.26.0.tgz}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': 7.25.9
+      '@babel/helper-validator-identifier': 7.25.9
+
+  /@esbuild/aix-ppc64@0.24.0:
+    resolution: {integrity: sha512-WtKdFM7ls47zkKHFVzMz8opM7LkcsIp9amDUBIAWirg70RM71WRSjdILPsY5Uv1D42ZpUfaPILDlfactHgsRkw==, tarball: https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-arm64@0.24.0:
+    resolution: {integrity: sha512-Vsm497xFM7tTIPYK9bNTYJyF/lsP590Qc1WxJdlB6ljCbdZKU9SY8i7+Iin4kyhV/KV5J2rOKsBQbB77Ab7L/w==, tarball: https://registry.npmmirror.com/@esbuild/android-arm64/-/android-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-arm@0.24.0:
+    resolution: {integrity: sha512-arAtTPo76fJ/ICkXWetLCc9EwEHKaeya4vMrReVlEIUCAUncH7M4bhMQ+M9Vf+FFOZJdTNMXNBrWwW+OXWpSew==, tarball: https://registry.npmmirror.com/@esbuild/android-arm/-/android-arm-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-x64@0.24.0:
+    resolution: {integrity: sha512-t8GrvnFkiIY7pa7mMgJd7p8p8qqYIz1NYiAoKc75Zyv73L3DZW++oYMSHPRarcotTKuSs6m3hTOa5CKHaS02TQ==, tarball: https://registry.npmmirror.com/@esbuild/android-x64/-/android-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-arm64@0.24.0:
+    resolution: {integrity: sha512-CKyDpRbK1hXwv79soeTJNHb5EiG6ct3efd/FTPdzOWdbZZfGhpbcqIpiD0+vwmpu0wTIL97ZRPZu8vUt46nBSw==, tarball: https://registry.npmmirror.com/@esbuild/darwin-arm64/-/darwin-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-x64@0.24.0:
+    resolution: {integrity: sha512-rgtz6flkVkh58od4PwTRqxbKH9cOjaXCMZgWD905JOzjFKW+7EiUObfd/Kav+A6Gyud6WZk9w+xu6QLytdi2OA==, tarball: https://registry.npmmirror.com/@esbuild/darwin-x64/-/darwin-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-arm64@0.24.0:
+    resolution: {integrity: sha512-6Mtdq5nHggwfDNLAHkPlyLBpE5L6hwsuXZX8XNmHno9JuL2+bg2BX5tRkwjyfn6sKbxZTq68suOjgWqCicvPXA==, tarball: https://registry.npmmirror.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-x64@0.24.0:
+    resolution: {integrity: sha512-D3H+xh3/zphoX8ck4S2RxKR6gHlHDXXzOf6f/9dbFt/NRBDIE33+cVa49Kil4WUjxMGW0ZIYBYtaGCa2+OsQwQ==, tarball: https://registry.npmmirror.com/@esbuild/freebsd-x64/-/freebsd-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm64@0.24.0:
+    resolution: {integrity: sha512-TDijPXTOeE3eaMkRYpcy3LarIg13dS9wWHRdwYRnzlwlA370rNdZqbcp0WTyyV/k2zSxfko52+C7jU5F9Tfj1g==, tarball: https://registry.npmmirror.com/@esbuild/linux-arm64/-/linux-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm@0.24.0:
+    resolution: {integrity: sha512-gJKIi2IjRo5G6Glxb8d3DzYXlxdEj2NlkixPsqePSZMhLudqPhtZ4BUrpIuTjJYXxvF9njql+vRjB2oaC9XpBw==, tarball: https://registry.npmmirror.com/@esbuild/linux-arm/-/linux-arm-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ia32@0.24.0:
+    resolution: {integrity: sha512-K40ip1LAcA0byL05TbCQ4yJ4swvnbzHscRmUilrmP9Am7//0UjPreh4lpYzvThT2Quw66MhjG//20mrufm40mA==, tarball: https://registry.npmmirror.com/@esbuild/linux-ia32/-/linux-ia32-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-loong64@0.24.0:
+    resolution: {integrity: sha512-0mswrYP/9ai+CU0BzBfPMZ8RVm3RGAN/lmOMgW4aFUSOQBjA31UP8Mr6DDhWSuMwj7jaWOT0p0WoZ6jeHhrD7g==, tarball: https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-mips64el@0.24.0:
+    resolution: {integrity: sha512-hIKvXm0/3w/5+RDtCJeXqMZGkI2s4oMUGj3/jM0QzhgIASWrGO5/RlzAzm5nNh/awHE0A19h/CvHQe6FaBNrRA==, tarball: https://registry.npmmirror.com/@esbuild/linux-mips64el/-/linux-mips64el-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ppc64@0.24.0:
+    resolution: {integrity: sha512-HcZh5BNq0aC52UoocJxaKORfFODWXZxtBaaZNuN3PUX3MoDsChsZqopzi5UupRhPHSEHotoiptqikjN/B77mYQ==, tarball: https://registry.npmmirror.com/@esbuild/linux-ppc64/-/linux-ppc64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-riscv64@0.24.0:
+    resolution: {integrity: sha512-bEh7dMn/h3QxeR2KTy1DUszQjUrIHPZKyO6aN1X4BCnhfYhuQqedHaa5MxSQA/06j3GpiIlFGSsy1c7Gf9padw==, tarball: https://registry.npmmirror.com/@esbuild/linux-riscv64/-/linux-riscv64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-s390x@0.24.0:
+    resolution: {integrity: sha512-ZcQ6+qRkw1UcZGPyrCiHHkmBaj9SiCD8Oqd556HldP+QlpUIe2Wgn3ehQGVoPOvZvtHm8HPx+bH20c9pvbkX3g==, tarball: https://registry.npmmirror.com/@esbuild/linux-s390x/-/linux-s390x-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-x64@0.24.0:
+    resolution: {integrity: sha512-vbutsFqQ+foy3wSSbmjBXXIJ6PL3scghJoM8zCL142cGaZKAdCZHyf+Bpu/MmX9zT9Q0zFBVKb36Ma5Fzfa8xA==, tarball: https://registry.npmmirror.com/@esbuild/linux-x64/-/linux-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/netbsd-x64@0.24.0:
+    resolution: {integrity: sha512-hjQ0R/ulkO8fCYFsG0FZoH+pWgTTDreqpqY7UnQntnaKv95uP5iW3+dChxnx7C3trQQU40S+OgWhUVwCjVFLvg==, tarball: https://registry.npmmirror.com/@esbuild/netbsd-x64/-/netbsd-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/openbsd-arm64@0.24.0:
+    resolution: {integrity: sha512-MD9uzzkPQbYehwcN583yx3Tu5M8EIoTD+tUgKF982WYL9Pf5rKy9ltgD0eUgs8pvKnmizxjXZyLt0z6DC3rRXg==, tarball: https://registry.npmmirror.com/@esbuild/openbsd-arm64/-/openbsd-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/openbsd-x64@0.24.0:
+    resolution: {integrity: sha512-4ir0aY1NGUhIC1hdoCzr1+5b43mw99uNwVzhIq1OY3QcEwPDO3B7WNXBzaKY5Nsf1+N11i1eOfFcq+D/gOS15Q==, tarball: https://registry.npmmirror.com/@esbuild/openbsd-x64/-/openbsd-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/sunos-x64@0.24.0:
+    resolution: {integrity: sha512-jVzdzsbM5xrotH+W5f1s+JtUy1UWgjU0Cf4wMvffTB8m6wP5/kx0KiaLHlbJO+dMgtxKV8RQ/JvtlFcdZ1zCPA==, tarball: https://registry.npmmirror.com/@esbuild/sunos-x64/-/sunos-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-arm64@0.24.0:
+    resolution: {integrity: sha512-iKc8GAslzRpBytO2/aN3d2yb2z8XTVfNV0PjGlCxKo5SgWmNXx82I/Q3aG1tFfS+A2igVCY97TJ8tnYwpUWLCA==, tarball: https://registry.npmmirror.com/@esbuild/win32-arm64/-/win32-arm64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-ia32@0.24.0:
+    resolution: {integrity: sha512-vQW36KZolfIudCcTnaTpmLQ24Ha1RjygBo39/aLkM2kmjkWmZGEJ5Gn9l5/7tzXA42QGIoWbICfg6KLLkIw6yw==, tarball: https://registry.npmmirror.com/@esbuild/win32-ia32/-/win32-ia32-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-x64@0.24.0:
+    resolution: {integrity: sha512-7IAFPrjSQIJrGsK6flwg7NFmwBoSTyF3rl7If0hNUFQU4ilTsEPL6GuMuU9BfIWVVGuRnuIidkSMC+c0Otu8IA==, tarball: https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.24.0.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@jridgewell/sourcemap-codec@1.5.0:
+    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz}
+
+  /@leafer-editor/partner@1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-wVtLp7nc84izd3N/bvdb8vjliHvpefWNnjL+og0qGfnGYgirSLzlLKxCGvcyhovchyywBxmZTfgaTnA92Jl3UQ==, tarball: https://registry.npmmirror.com/@leafer-editor/partner/-/partner-1.0.10.tgz}
+    dependencies:
+      '@leafer-in/arrow': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/editor': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/scroll': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/view': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+    transitivePeerDependencies:
+      - '@leafer-in/interface'
+      - '@leafer-in/resize'
+      - '@leafer-ui/core'
+      - '@leafer-ui/draw'
+      - '@leafer-ui/interface'
+    dev: false
+
+  /@leafer-editor/web@1.0.10(@leafer-in/editor@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10):
+    resolution: {integrity: sha512-QKB+vZYj81tG2+3UOFRK1q65lJPnkufVd+0hAQb7Bs1JI2gUs8dkNUOjUdne39qDntfTeswiUt6hiJM+5V1WJw==, tarball: https://registry.npmmirror.com/@leafer-editor/web/-/web-1.0.10.tgz}
+    dependencies:
+      '@leafer-editor/partner': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/html': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-in/text-editor': 1.0.10(@leafer-in/editor@1.0.10)(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10)
+      leafer-ui: 1.0.10
+    transitivePeerDependencies:
+      - '@leafer-in/editor'
+      - '@leafer-in/resize'
+      - '@leafer-ui/core'
+      - '@leafer-ui/draw'
+      - '@leafer-ui/interface'
+      - '@leafer/interface'
+    dev: false
+
+  /@leafer-in/arrow@1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-VWIszdv0lcX1jaCJRRqjRGOuFP7LKMdUuU2B5PO6aG87mE23ye2wP2fykMsrBF3po8rQnCfCRjx/3CM84NAL/g==, tarball: https://registry.npmmirror.com/@leafer-in/arrow/-/arrow-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/draw': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/editor@1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-Arrl1Z2t9TCA0trs4MpJxojp5tv2JyUNAg1TS8n5KljEBFI/PozbLBdfyxefxO68y9Szddtf+jHmf5wukABdzA==, tarball: https://registry.npmmirror.com/@leafer-in/editor/-/editor-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-in/resize': ^1.0.10
+      '@leafer-ui/core': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-in/resize': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-ui/core': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/html@1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-IvN6Q6TKjqJ4YLjmHaIJ6uwvKCzww5dlngSTJR079DF07LBXMGwyPdWKdJsGElkhrst6FlWs8R1gxB8l20xfZg==, tarball: https://registry.npmmirror.com/@leafer-in/html/-/html-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/draw': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/interface@1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10):
+    resolution: {integrity: sha512-z0jpD2PppfadO2XvSaexJaNBKp7jjGC6HPDJbdXJgu+IBLZB5PpiJoKu2z5IBJu7CQ5LUtCLrIe8jW7bNTfmsQ==, tarball: https://registry.npmmirror.com/@leafer-in/interface/-/interface-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-ui/interface': ^1.0.10
+      '@leafer/interface': ^1.0.10
+    dependencies:
+      '@leafer-ui/interface': 1.0.10
+      '@leafer/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/resize@1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-Keqjx/YEIRcegRQUxjbrqjQlV0GmQz+hh9sO9t/bRWtBy8+ukYKaKHnv4ks/14Zet32Ozb5k9f8VrF/+4Mw4BA==, tarball: https://registry.npmmirror.com/@leafer-in/resize/-/resize-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/draw': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/scroll@1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-tVlyyMPruf/ibrBFJXdz0rOeF4QnnUSfD0a0iPhek0pRBG05XFt9CK/OeLPFWfwyufwprNEQVM/qksDl41vzpQ==, tarball: https://registry.npmmirror.com/@leafer-in/scroll/-/scroll-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/core': ^1.0.10
+      '@leafer-ui/draw': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/core': 1.0.10
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/text-editor@1.0.10(@leafer-in/editor@1.0.10)(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-ZEF4lNCg6IlHazjMwip1gJCaJxUaVLghNaF6QTXiH/xipai2Bo/GDPxhIkpfS2pCnQpepl1x+3dmuoB9Rc+6MQ==, tarball: https://registry.npmmirror.com/@leafer-in/text-editor/-/text-editor-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/editor': ^1.0.10
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/core': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/editor': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/core': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-in/view@1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10):
+    resolution: {integrity: sha512-ayEIXIuZ08VUrfwEaqXaQcZs9mE2W4qxFctOwDOZysfIiLNceC9udcRFZ5mKgtKJd2MvwMIoFGIZVxpaLZq7NA==, tarball: https://registry.npmmirror.com/@leafer-in/view/-/view-1.0.10.tgz}
+    peerDependencies:
+      '@leafer-in/interface': ^1.0.10
+      '@leafer-ui/draw': ^1.0.10
+      '@leafer-ui/interface': ^1.0.10
+    dependencies:
+      '@leafer-in/interface': 1.0.10(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+    dev: false
+
+  /@leafer-ui/app@1.0.10:
+    resolution: {integrity: sha512-DzNV9bq5097+5f+YnOvqFwYEZ5QcCUM646WnsnR+VBZ4+y//tQ/B1usSF1AMu+CzaxhZKinKpqRnz0mWszXZ6A==, tarball: https://registry.npmmirror.com/@leafer-ui/app/-/app-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/data': 1.0.10
+      '@leafer-ui/display': 1.0.10
+      '@leafer-ui/type': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/bounds@1.0.10:
+    resolution: {integrity: sha512-ZoFDpoN+Z+uwnqeIQvTdDUcYdyVmmNDtnz7m7VWADvRkv5lYnGajOJeQYFz/fkovqoSLoJxNgu6oCmEf6lFBjw==, tarball: https://registry.npmmirror.com/@leafer-ui/bounds/-/bounds-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/color@1.0.10:
+    resolution: {integrity: sha512-6Um5saRviUPgoPvMgTZW1e/4pjhBkMCHaYqT6nO/I7Vxm2VD4GMQCGqzlHXSZ70i3vBGGK0033Y3K4rajB5D+g==, tarball: https://registry.npmmirror.com/@leafer-ui/color/-/color-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/draw': 1.0.10
+    dev: false
+
+  /@leafer-ui/core@1.0.10:
+    resolution: {integrity: sha512-u2J55/Ij7VJrdHqRGlRDnRs7gsmyAQ08dpyLlSliPojMhKUpnqezza4FhxlfBT7RF5n2t28sZ0ywCfkY2tvq3w==, tarball: https://registry.npmmirror.com/@leafer-ui/core/-/core-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/app': 1.0.10
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/event': 1.0.10
+      '@leafer-ui/hit': 1.0.10
+      '@leafer-ui/interaction': 1.0.10
+      '@leafer-ui/type': 1.0.10
+    dev: false
+
+  /@leafer-ui/data@1.0.10:
+    resolution: {integrity: sha512-X6cfQ0WRwwXi9/dc5UurGmSWTqD3juiu/giwsrc+qyKcg2KvA2SKK+dV36UszEszbJWyAiqE/p/NQwhDqV1Tdg==, tarball: https://registry.npmmirror.com/@leafer-ui/data/-/data-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/external': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/decorator@1.0.10:
+    resolution: {integrity: sha512-1yE7ZUTlxZpFndVhV5XJjaSmR+PhYo6JmV9uJcIXuD6i6/Epya1q7d3pcd6Ei+JAlLbz46nSQ/kieD+bMH7/OA==, tarball: https://registry.npmmirror.com/@leafer-ui/decorator/-/decorator-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/display-module@1.0.10:
+    resolution: {integrity: sha512-hKju7/2/ySP0d6rca0c/eMpc+wMJP0dMpioA3IHNO7qiK8XOyaZ9c2PKJj3jXU4OJg/PIWRgOszWJVZcvWzDJw==, tarball: https://registry.npmmirror.com/@leafer-ui/display-module/-/display-module-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/bounds': 1.0.10
+      '@leafer-ui/data': 1.0.10
+      '@leafer-ui/render': 1.0.10
+    dev: false
+
+  /@leafer-ui/display@1.0.10:
+    resolution: {integrity: sha512-YesZugahdl3DWe/U1la6Yikksmgkqwng+JYezEV+Wet/fmFzpuyAFFODSRHjsRMgV8GKFda36/pIVe0oYNKHgg==, tarball: https://registry.npmmirror.com/@leafer-ui/display/-/display-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/data': 1.0.10
+      '@leafer-ui/decorator': 1.0.10
+      '@leafer-ui/display-module': 1.0.10
+      '@leafer-ui/external': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/draw@1.0.10:
+    resolution: {integrity: sha512-Xv1PQy6BOCekSMCay4MIGrgbj2GFxOmgWAx6fa5+qQLsUx82hoz+bAar3bczcT+zAvqiu4rvRrSEsQ52ID61QA==, tarball: https://registry.npmmirror.com/@leafer-ui/draw/-/draw-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/decorator': 1.0.10
+      '@leafer-ui/display': 1.0.10
+      '@leafer-ui/display-module': 1.0.10
+      '@leafer-ui/external': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/effect@1.0.10:
+    resolution: {integrity: sha512-frYqIptLc5mRAeqtmEpHOImcjB/fpZnMaVu5iec6iogN6FjcGAI61Y0aEaXqcpMq6lSLnAeAOzcxGe+afXTeDA==, tarball: https://registry.npmmirror.com/@leafer-ui/effect/-/effect-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/event@1.0.10:
+    resolution: {integrity: sha512-vgAhWFfYk1xABtkJtI4TAAgxy7LD3OoHdkB9rMcW2tgEvDKcPfLIrvTMLWWta39e08lmJ1mV5jhvGl5X4jKuhg==, tarball: https://registry.npmmirror.com/@leafer-ui/event/-/event-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/export@1.0.10:
+    resolution: {integrity: sha512-ocR9w+lW5N7i2/akR4B3yT6sxUaqfA0awMeNn/SJgW7w8s/pL3KEnLdfc28J9QaTv/dD8h1MYXPQomnbjj2lkA==, tarball: https://registry.npmmirror.com/@leafer-ui/export/-/export-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/external@1.0.10:
+    resolution: {integrity: sha512-TM0QUbJ6E2v0gZcNAOJBwEeKjVhmn7uHrmn1QdXhhVPnOc8tHdAKzSvpQWc6wtBEiS/trx5lC6469eAsLD9b7A==, tarball: https://registry.npmmirror.com/@leafer-ui/external/-/external-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/hit@1.0.10:
+    resolution: {integrity: sha512-GQzsAug01tUcm5yvB7KOpRGnQdwjMDz8cHy2gfyYu3ngLK89YNgpeaQge4KC1NDyWPiUDRvcUDjRx2xPTAEeOg==, tarball: https://registry.npmmirror.com/@leafer-ui/hit/-/hit-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/draw': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/interaction-web@1.0.10:
+    resolution: {integrity: sha512-skNSihUZbPlHvLvlvNqlag8K6YpE7z/bnYN2icNL12NTNAza4tBWr2gVeg+NzjRWweyUoFRRr/wq2Qg7bd93YA==, tarball: https://registry.npmmirror.com/@leafer-ui/interaction-web/-/interaction-web-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/core': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/interaction@1.0.10:
+    resolution: {integrity: sha512-qkiifs/Ybd3CIKNafQGA8DWnDUbHKCv7ng9VYaIuVUAdZc5ie3qKIevP46wZbK5KpjzNV4O2NAKFa4vbyd8jcQ==, tarball: https://registry.npmmirror.com/@leafer-ui/interaction/-/interaction-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/event': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/interface@1.0.10:
+    resolution: {integrity: sha512-o/wm/CXe3a1DCnDWZhOTFtwl2G4+tSzIAjp43JwYIya7OsQYoqqrJvsIjq/jzG/bIMorn9/846NtL0/JT5XZEA==, tarball: https://registry.npmmirror.com/@leafer-ui/interface/-/interface-1.0.10.tgz}
+    dependencies:
+      '@leafer/interface': 1.0.10
+    dev: false
+
+  /@leafer-ui/paint@1.0.10:
+    resolution: {integrity: sha512-F8BsZ4CAKCATqG9ESfhz5gDHy3UAKdK8NDsqFqNTWRzgN60xT5ajTg8WEgQwRQJHhQBB7imR6vqhUZf9pBKt8A==, tarball: https://registry.npmmirror.com/@leafer-ui/paint/-/paint-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/draw': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/partner@1.0.10:
+    resolution: {integrity: sha512-IAZaIYyWAV5auhjcBheNcs8LNG6lkv1nSW0YRglzOhh1s1rWMsHE+wi2d+biopEElCMw7yrPeli4Xc0L6e3LDg==, tarball: https://registry.npmmirror.com/@leafer-ui/partner/-/partner-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/color': 1.0.10
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/effect': 1.0.10
+      '@leafer-ui/export': 1.0.10
+      '@leafer-ui/paint': 1.0.10
+      '@leafer-ui/text': 1.0.10
+    dev: false
+
+  /@leafer-ui/render@1.0.10:
+    resolution: {integrity: sha512-no4mobBTdDIPrPThQRaV7/kIocJxnCZutJWEIHzWBnfTM3M0Q3sVJF3inkfi7Y8bNK7CP9Br6YqiKjmdKLqgTw==, tarball: https://registry.npmmirror.com/@leafer-ui/render/-/render-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/external': 1.0.10
+    dev: false
+
+  /@leafer-ui/text@1.0.10:
+    resolution: {integrity: sha512-vdmuJDDlVso+vSPp6fBuy0O69Na9X71Zcerg1SJcmsoEFMj0WV/x1w8e9PVGkexh09VHpX4KLIKSyxcYug7Gqw==, tarball: https://registry.npmmirror.com/@leafer-ui/text/-/text-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/type@1.0.10:
+    resolution: {integrity: sha512-+r50+RxDhhz6GcyJn2W+QpEO5cayIFIhZdf0Jod5pP+MjaN1C86RRy3vG1FVwNe+RdtRtyCl3kia0zFvTrLAyA==, tarball: https://registry.npmmirror.com/@leafer-ui/type/-/type-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/event': 1.0.10
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer-ui/web@1.0.10:
+    resolution: {integrity: sha512-AQF/v9ln3etduFg6bFUe+3QKULCua1QfsYH6sE08kJLRV8x2pCCTDd9/KSeqj7nOwFpACgXH9TSUJ9qBWq8R/Q==, tarball: https://registry.npmmirror.com/@leafer-ui/web/-/web-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/core': 1.0.10
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interaction-web': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+      '@leafer-ui/partner': 1.0.10
+      '@leafer/core': 1.0.10
+      '@leafer/interface': 1.0.10
+      '@leafer/partner': 1.0.10
+      '@leafer/web': 1.0.10
+    dev: false
+
+  /@leafer/canvas-web@1.0.10:
+    resolution: {integrity: sha512-Zahav2vy7McMHhLk5XNDNiDZUerxb8rJD6BnftDsTn7svnhv7iIJr/AKoJLJ+q/CgMopX6jnbP48fgz8WBzhrw==, tarball: https://registry.npmmirror.com/@leafer/canvas-web/-/canvas-web-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer/canvas@1.0.10:
+    resolution: {integrity: sha512-ON87rUlqKa+Qb3mJdJKXJwKAmHUxGRXqOowMvy0IRf3LkjqnO0ECgouYePiAA6stdv5Cn4E1PrJM26+4OBblyw==, tarball: https://registry.npmmirror.com/@leafer/canvas/-/canvas-1.0.10.tgz}
+    dependencies:
+      '@leafer/data': 1.0.10
+      '@leafer/debug': 1.0.10
+      '@leafer/file': 1.0.10
+      '@leafer/list': 1.0.10
+      '@leafer/math': 1.0.10
+      '@leafer/path': 1.0.10
+      '@leafer/platform': 1.0.10
+    dev: false
+
+  /@leafer/core@1.0.10:
+    resolution: {integrity: sha512-1X/kTzJmUphZcjWSijwKTJJg0msHyRZC9uPm6oZmyUqffMpLNq7MQHgTIZ02ZuAHCdKaAiaPUI4Dr+/lwSTG4w==, tarball: https://registry.npmmirror.com/@leafer/core/-/core-1.0.10.tgz}
+    dependencies:
+      '@leafer/canvas': 1.0.10
+      '@leafer/data': 1.0.10
+      '@leafer/debug': 1.0.10
+      '@leafer/decorator': 1.0.10
+      '@leafer/display': 1.0.10
+      '@leafer/display-module': 1.0.10
+      '@leafer/event': 1.0.10
+      '@leafer/file': 1.0.10
+      '@leafer/helper': 1.0.10
+      '@leafer/image': 1.0.10
+      '@leafer/layout': 1.0.10
+      '@leafer/list': 1.0.10
+      '@leafer/math': 1.0.10
+      '@leafer/path': 1.0.10
+      '@leafer/platform': 1.0.10
+      '@leafer/task': 1.0.10
+    dev: false
+
+  /@leafer/data@1.0.10:
+    resolution: {integrity: sha512-b04CmfuTZqZWllwEokMmVn+tZCK8ZG6s+GU8B8jkrOt4XOxbjJp+zfrsUQ/7yjzkw0/W/2rxKXyKKjA1U/nsmA==, tarball: https://registry.npmmirror.com/@leafer/data/-/data-1.0.10.tgz}
+    dev: false
+
+  /@leafer/debug@1.0.10:
+    resolution: {integrity: sha512-sQUXM7gKefRx/ykhnxYkWFeL3ESFqvY+Zo/VABmOzfMkxFvMmhvi/GOABLv65703qtP9ETdY5E5NFJjPFtLA3w==, tarball: https://registry.npmmirror.com/@leafer/debug/-/debug-1.0.10.tgz}
+    dependencies:
+      '@leafer/math': 1.0.10
+    dev: false
+
+  /@leafer/decorator@1.0.10:
+    resolution: {integrity: sha512-QGlb6M1X2u7HOeUvdtEKbcESnTj6u2yIDMuwrVz0FF1ekdUaX0tjlMrTNWWwdh9a11XuOVY8ymcbRW0PHVo/Xg==, tarball: https://registry.npmmirror.com/@leafer/decorator/-/decorator-1.0.10.tgz}
+    dependencies:
+      '@leafer/data': 1.0.10
+      '@leafer/debug': 1.0.10
+      '@leafer/platform': 1.0.10
+    dev: false
+
+  /@leafer/display-module@1.0.10:
+    resolution: {integrity: sha512-4jo0T7r++iCTxwhUJxAYt43hxwI3ptggLcIFDeS/dpX7E1oDth9OXUrvlBPt44qSZzk5tIxcApKI7jXV5oWEig==, tarball: https://registry.npmmirror.com/@leafer/display-module/-/display-module-1.0.10.tgz}
+    dependencies:
+      '@leafer/debug': 1.0.10
+      '@leafer/event': 1.0.10
+      '@leafer/helper': 1.0.10
+      '@leafer/math': 1.0.10
+    dev: false
+
+  /@leafer/display@1.0.10:
+    resolution: {integrity: sha512-MAbcrb7mXGXCJy8q1GbyJNvkDnZIKI43ydNxO6CNzmyzbmsf5JjkBIftZAN+cTCNx7PnPSBxtIcpUj1+ikoXEg==, tarball: https://registry.npmmirror.com/@leafer/display/-/display-1.0.10.tgz}
+    dependencies:
+      '@leafer/data': 1.0.10
+      '@leafer/debug': 1.0.10
+      '@leafer/decorator': 1.0.10
+      '@leafer/display-module': 1.0.10
+      '@leafer/event': 1.0.10
+      '@leafer/helper': 1.0.10
+      '@leafer/layout': 1.0.10
+      '@leafer/math': 1.0.10
+      '@leafer/platform': 1.0.10
+    dev: false
+
+  /@leafer/event@1.0.10:
+    resolution: {integrity: sha512-mjgJ+7O871skyQX14ujI5XTVXQZW0HLFESMZObcvJuMcaAx2AiwWLWSz791xGwE6/YnkRipMQhiFN3f29ouRTA==, tarball: https://registry.npmmirror.com/@leafer/event/-/event-1.0.10.tgz}
+    dependencies:
+      '@leafer/decorator': 1.0.10
+      '@leafer/math': 1.0.10
+      '@leafer/platform': 1.0.10
+    dev: false
+
+  /@leafer/file@1.0.10:
+    resolution: {integrity: sha512-umfwhT9aDYeGoOoeaRmHIPgknVbcm6omvfYytW6Bm/s2T/Tjq1diS4zy0DZ3y1ZtSeTVI5h7fRRp4rc8Cr0geA==, tarball: https://registry.npmmirror.com/@leafer/file/-/file-1.0.10.tgz}
+    dependencies:
+      '@leafer/debug': 1.0.10
+    dev: false
+
+  /@leafer/helper@1.0.10:
+    resolution: {integrity: sha512-MOXo2n+7M8K4lX0s9/E9625RH4L4RW/FiP56tAs5kHH3JpjGhp1H5qC6RVj9MZsBtPBZQEaVMkf2oF8MHOXClQ==, tarball: https://registry.npmmirror.com/@leafer/helper/-/helper-1.0.10.tgz}
+    dependencies:
+      '@leafer/math': 1.0.10
+    dev: false
+
+  /@leafer/image-web@1.0.10:
+    resolution: {integrity: sha512-vivkf/cgNcAjyQCipyVPnL1TGkq0TGa85iKu/mwo0GRZjw4Ma8P6IC/uJSzZHYK8GO0rctJxeyFIZwj9wRbzSQ==, tarball: https://registry.npmmirror.com/@leafer/image-web/-/image-web-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer/image@1.0.10:
+    resolution: {integrity: sha512-NhOd3kd5Xr1XLyfnedGweIK1e+JwwDp/M1L6QheJaMFnqVToLC6OuuGO6gHhGjZEDCDwp96OX3z0wQFVK2kYsA==, tarball: https://registry.npmmirror.com/@leafer/image/-/image-1.0.10.tgz}
+    dependencies:
+      '@leafer/file': 1.0.10
+      '@leafer/platform': 1.0.10
+      '@leafer/task': 1.0.10
+    dev: false
+
+  /@leafer/interface@1.0.10:
+    resolution: {integrity: sha512-dffm0udNFkPeyUAiSQTXAhSUmXpHv0KUjwM4OQ7dxZNryEfqIwLw7yIcCwiZ98PMRJmhzRCoVRxbYHKQT7pgXw==, tarball: https://registry.npmmirror.com/@leafer/interface/-/interface-1.0.10.tgz}
+    dev: false
+
+  /@leafer/layout@1.0.10:
+    resolution: {integrity: sha512-MJgXmW4xMgZlwwcdkita6iA481Pz8dHJ123ZFEFwGr7XAF0paaUQQogL1w4jqBL+kyzKlf6YFIV4qCL7lyPiGw==, tarball: https://registry.npmmirror.com/@leafer/layout/-/layout-1.0.10.tgz}
+    dependencies:
+      '@leafer/helper': 1.0.10
+      '@leafer/math': 1.0.10
+      '@leafer/platform': 1.0.10
+    dev: false
+
+  /@leafer/layouter@1.0.10:
+    resolution: {integrity: sha512-9PyqoiM6Hac5+q9WIVHMRFxWIMW09Xha4+JprHKK/9bHRP/rajLZ5NGKNcFMqJdUJVCdei7tDdIx/seq+hWRFQ==, tarball: https://registry.npmmirror.com/@leafer/layouter/-/layouter-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer/list@1.0.10:
+    resolution: {integrity: sha512-Q+eg2sA4MuFavQIc+Gn2aNcrKHBY9eHRNz4wLqQiQSMUhP/oq3SDAIVHN2xQuAXJeebXGvDomFr+cjhRnGJjmg==, tarball: https://registry.npmmirror.com/@leafer/list/-/list-1.0.10.tgz}
+    dev: false
+
+  /@leafer/math@1.0.10:
+    resolution: {integrity: sha512-UH9Hm3ADj3SDcvIgnyZGmUisb+ozaPGVPT1cDvs1fw2FuXxyNz6koqXpAvicAVOceqkh+Q6gpcUMbHGKCUox4A==, tarball: https://registry.npmmirror.com/@leafer/math/-/math-1.0.10.tgz}
+    dev: false
+
+  /@leafer/partner@1.0.10:
+    resolution: {integrity: sha512-NBzBi6Gd7MZSg7/1FosBNTMdFDLFqqNA5kheuIBcHii9QtXytW1PLBCbSPcN+dmp6llWlblus/bAN6y4V2MmCQ==, tarball: https://registry.npmmirror.com/@leafer/partner/-/partner-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+      '@leafer/layouter': 1.0.10
+      '@leafer/renderer': 1.0.10
+      '@leafer/selector': 1.0.10
+      '@leafer/watcher': 1.0.10
+    dev: false
+
+  /@leafer/path@1.0.10:
+    resolution: {integrity: sha512-gKr7Mr/9khrfVaAwK/yYA7zBWA4BEDWJLTJ/ovPnmSiULpdoCudmUFVC3BgXwleuDLSM5vfQ9qhkwodqpgS4aw==, tarball: https://registry.npmmirror.com/@leafer/path/-/path-1.0.10.tgz}
+    dependencies:
+      '@leafer/debug': 1.0.10
+      '@leafer/math': 1.0.10
+    dev: false
+
+  /@leafer/platform@1.0.10:
+    resolution: {integrity: sha512-bN2KyKZPxqqCfMGlfcoq/tOO9kpsdI1Ru1y0BBA0ADO88OPwAIRmAgNImziznXEuSIkCGEG/XXMFuROrVUmgew==, tarball: https://registry.npmmirror.com/@leafer/platform/-/platform-1.0.10.tgz}
+    dependencies:
+      '@leafer/debug': 1.0.10
+      '@leafer/layouter': 1.0.10
+    dev: false
+
+  /@leafer/renderer@1.0.10:
+    resolution: {integrity: sha512-2gODtjFpuDIpzRTx889OATFSbmwVT3gs1VVocd3tyVdnH1eguVBJsPSWioAdecIZH8Bnv2GLFrkA6fyxHzuIVA==, tarball: https://registry.npmmirror.com/@leafer/renderer/-/renderer-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer/selector@1.0.10:
+    resolution: {integrity: sha512-8+6onHF14cViWjA9osIRiuIMCwxSCkzX85Z5tXTB1VygVffx6wPls6FieS2/RcfbZM2eEckEjqfm9JvDfyCqkw==, tarball: https://registry.npmmirror.com/@leafer/selector/-/selector-1.0.10.tgz}
+    dependencies:
+      '@leafer/core': 1.0.10
+    dev: false
+
+  /@leafer/task@1.0.10:
+    resolution: {integrity: sha512-cuRxuXqUzW3LIqMiA3Z2QBazwfjP/c75EI7rL2i6Jm3IetRdjtaxrzdi2NZ6nBZ72m1ZdmGC/ylnvMlDuhuYRA==, tarball: https://registry.npmmirror.com/@leafer/task/-/task-1.0.10.tgz}
+    dependencies:
+      '@leafer/debug': 1.0.10
+      '@leafer/math': 1.0.10
+    dev: false
+
+  /@leafer/watcher@1.0.10:
+    resolution: {integrity: sha512-CAP4WllJbZKe3ymZayEQECXS+ikAoJ8h1EtxbeVJBhgEZ2RCBIgyUHRVS2Rj0q6CUd6h4DPeguo8mzFtjBvJkg==, tarball: https://registry.npmmirror.com/@leafer/watcher/-/watcher-1.0.10.tgz}
+    dependencies:
+      '@leafer/data': 1.0.10
+      '@leafer/event': 1.0.10
+      '@leafer/list': 1.0.10
+    dev: false
+
+  /@leafer/web@1.0.10:
+    resolution: {integrity: sha512-dqYfTkx1XlinvH/Hvqgd1y7aUo9ONcz5wjtsS0+kPNrb8BI+ew80vnTBw0/RsDWB/ETQ2u8U0+mWMOV/gUpHQg==, tarball: https://registry.npmmirror.com/@leafer/web/-/web-1.0.10.tgz}
+    dependencies:
+      '@leafer/canvas-web': 1.0.10
+      '@leafer/core': 1.0.10
+      '@leafer/image-web': 1.0.10
+    dev: false
+
+  /@rollup/rollup-android-arm-eabi@4.27.4:
+    resolution: {integrity: sha512-2Y3JT6f5MrQkICUyRVCw4oa0sutfAsgaSsb0Lmmy1Wi2y7X5vT9Euqw4gOsCyy0YfKURBg35nhUKZS4mDcfULw==, tarball: https://registry.npmmirror.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.27.4.tgz}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-android-arm64@4.27.4:
+    resolution: {integrity: sha512-wzKRQXISyi9UdCVRqEd0H4cMpzvHYt1f/C3CoIjES6cG++RHKhrBj2+29nPF0IB5kpy9MS71vs07fvrNGAl/iA==, tarball: https://registry.npmmirror.com/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.27.4.tgz}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-darwin-arm64@4.27.4:
+    resolution: {integrity: sha512-PlNiRQapift4LNS8DPUHuDX/IdXiLjf8mc5vdEmUR0fF/pyy2qWwzdLjB+iZquGr8LuN4LnUoSEvKRwjSVYz3Q==, tarball: https://registry.npmmirror.com/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.27.4.tgz}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-darwin-x64@4.27.4:
+    resolution: {integrity: sha512-o9bH2dbdgBDJaXWJCDTNDYa171ACUdzpxSZt+u/AAeQ20Nk5x+IhA+zsGmrQtpkLiumRJEYef68gcpn2ooXhSQ==, tarball: https://registry.npmmirror.com/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.27.4.tgz}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-freebsd-arm64@4.27.4:
+    resolution: {integrity: sha512-NBI2/i2hT9Q+HySSHTBh52da7isru4aAAo6qC3I7QFVsuhxi2gM8t/EI9EVcILiHLj1vfi+VGGPaLOUENn7pmw==, tarball: https://registry.npmmirror.com/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.4.tgz}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-freebsd-x64@4.27.4:
+    resolution: {integrity: sha512-wYcC5ycW2zvqtDYrE7deary2P2UFmSh85PUpAx+dwTCO9uw3sgzD6Gv9n5X4vLaQKsrfTSZZ7Z7uynQozPVvWA==, tarball: https://registry.npmmirror.com/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.27.4.tgz}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm-gnueabihf@4.27.4:
+    resolution: {integrity: sha512-9OwUnK/xKw6DyRlgx8UizeqRFOfi9mf5TYCw1uolDaJSbUmBxP85DE6T4ouCMoN6pXw8ZoTeZCSEfSaYo+/s1w==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.27.4.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm-musleabihf@4.27.4:
+    resolution: {integrity: sha512-Vgdo4fpuphS9V24WOV+KwkCVJ72u7idTgQaBoLRD0UxBAWTF9GWurJO9YD9yh00BzbkhpeXtm6na+MvJU7Z73A==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.27.4.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-gnu@4.27.4:
+    resolution: {integrity: sha512-pleyNgyd1kkBkw2kOqlBx+0atfIIkkExOTiifoODo6qKDSpnc6WzUY5RhHdmTdIJXBdSnh6JknnYTtmQyobrVg==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.27.4.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-musl@4.27.4:
+    resolution: {integrity: sha512-caluiUXvUuVyCHr5DxL8ohaaFFzPGmgmMvwmqAITMpV/Q+tPoaHZ/PWa3t8B2WyoRcIIuu1hkaW5KkeTDNSnMA==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.27.4.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-powerpc64le-gnu@4.27.4:
+    resolution: {integrity: sha512-FScrpHrO60hARyHh7s1zHE97u0KlT/RECzCKAdmI+LEoC1eDh/RDji9JgFqyO+wPDb86Oa/sXkily1+oi4FzJQ==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.27.4.tgz}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-riscv64-gnu@4.27.4:
+    resolution: {integrity: sha512-qyyprhyGb7+RBfMPeww9FlHwKkCXdKHeGgSqmIXw9VSUtvyFZ6WZRtnxgbuz76FK7LyoN8t/eINRbPUcvXB5fw==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.27.4.tgz}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-s390x-gnu@4.27.4:
+    resolution: {integrity: sha512-PFz+y2kb6tbh7m3A7nA9++eInGcDVZUACulf/KzDtovvdTizHpZaJty7Gp0lFwSQcrnebHOqxF1MaKZd7psVRg==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.27.4.tgz}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-gnu@4.27.4:
+    resolution: {integrity: sha512-Ni8mMtfo+o/G7DVtweXXV/Ol2TFf63KYjTtoZ5f078AUgJTmaIJnj4JFU7TK/9SVWTaSJGxPi5zMDgK4w+Ez7Q==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.27.4.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-musl@4.27.4:
+    resolution: {integrity: sha512-5AeeAF1PB9TUzD+3cROzFTnAJAcVUGLuR8ng0E0WXGkYhp6RD6L+6szYVX+64Rs0r72019KHZS1ka1q+zU/wUw==, tarball: https://registry.npmmirror.com/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.27.4.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-arm64-msvc@4.27.4:
+    resolution: {integrity: sha512-yOpVsA4K5qVwu2CaS3hHxluWIK5HQTjNV4tWjQXluMiiiu4pJj4BN98CvxohNCpcjMeTXk/ZMJBRbgRg8HBB6A==, tarball: https://registry.npmmirror.com/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.27.4.tgz}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-ia32-msvc@4.27.4:
+    resolution: {integrity: sha512-KtwEJOaHAVJlxV92rNYiG9JQwQAdhBlrjNRp7P9L8Cb4Rer3in+0A+IPhJC9y68WAi9H0sX4AiG2NTsVlmqJeQ==, tarball: https://registry.npmmirror.com/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.27.4.tgz}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@rollup/rollup-win32-x64-msvc@4.27.4:
+    resolution: {integrity: sha512-3j4jx1TppORdTAoBJRd+/wJRGCPC0ETWkXOecJ6PPZLj6SptXkrXcNqdj0oclbKML6FkQltdz7bBA3rUSirZug==, tarball: https://registry.npmmirror.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.27.4.tgz}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@types/estree@1.0.6:
+    resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==, tarball: https://registry.npmmirror.com/@types/estree/-/estree-1.0.6.tgz}
+    dev: true
+
+  /@vitejs/plugin-vue@5.2.1(vite@6.0.1)(vue@3.5.13):
+    resolution: {integrity: sha512-cxh314tzaWwOLqVes2gnnCtvBDcM1UMdn+iFR+UjAn411dPT3tOmqrJjbMd7koZpMAmBM/GqeV4n9ge7JSiJJQ==, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-5.2.1.tgz}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    peerDependencies:
+      vite: ^5.0.0 || ^6.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 6.0.1
+      vue: 3.5.13
+    dev: true
+
+  /@vue/compiler-core@3.5.13:
+    resolution: {integrity: sha512-oOdAkwqUfW1WqpwSYJce06wvt6HljgY3fGeM9NcVA1HaYOij3mZG9Rkysn0OHuyUAGMbEbARIpsG+LPVlBJ5/Q==, tarball: https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.5.13.tgz}
+    dependencies:
+      '@babel/parser': 7.26.2
+      '@vue/shared': 3.5.13
+      entities: 4.5.0
+      estree-walker: 2.0.2
+      source-map-js: 1.2.1
+
+  /@vue/compiler-dom@3.5.13:
+    resolution: {integrity: sha512-ZOJ46sMOKUjO3e94wPdCzQ6P1Lx/vhp2RSvfaab88Ajexs0AHeV0uasYhi99WPaogmBlRHNRuly8xV75cNTMDA==, tarball: https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.5.13.tgz}
+    dependencies:
+      '@vue/compiler-core': 3.5.13
+      '@vue/shared': 3.5.13
+
+  /@vue/compiler-sfc@3.5.13:
+    resolution: {integrity: sha512-6VdaljMpD82w6c2749Zhf5T9u5uLBWKnVue6XWxprDobftnletJ8+oel7sexFfM3qIxNmVE7LSFGTpv6obNyaQ==, tarball: https://registry.npmmirror.com/@vue/compiler-sfc/-/compiler-sfc-3.5.13.tgz}
+    dependencies:
+      '@babel/parser': 7.26.2
+      '@vue/compiler-core': 3.5.13
+      '@vue/compiler-dom': 3.5.13
+      '@vue/compiler-ssr': 3.5.13
+      '@vue/shared': 3.5.13
+      estree-walker: 2.0.2
+      magic-string: 0.30.14
+      postcss: 8.4.49
+      source-map-js: 1.2.1
+
+  /@vue/compiler-ssr@3.5.13:
+    resolution: {integrity: sha512-wMH6vrYHxQl/IybKJagqbquvxpWCuVYpoUJfCqFZwa/JY1GdATAQ+TgVtgrwwMZ0D07QhA99rs/EAAWfvG6KpA==, tarball: https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.5.13.tgz}
+    dependencies:
+      '@vue/compiler-dom': 3.5.13
+      '@vue/shared': 3.5.13
+
+  /@vue/reactivity@3.5.13:
+    resolution: {integrity: sha512-NaCwtw8o48B9I6L1zl2p41OHo/2Z4wqYGGIK1Khu5T7yxrn+ATOixn/Udn2m+6kZKB/J7cuT9DbWWhRxqixACg==, tarball: https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.5.13.tgz}
+    dependencies:
+      '@vue/shared': 3.5.13
+
+  /@vue/runtime-core@3.5.13:
+    resolution: {integrity: sha512-Fj4YRQ3Az0WTZw1sFe+QDb0aXCerigEpw418pw1HBUKFtnQHWzwojaukAs2X/c9DQz4MQ4bsXTGlcpGxU/RCIw==, tarball: https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.5.13.tgz}
+    dependencies:
+      '@vue/reactivity': 3.5.13
+      '@vue/shared': 3.5.13
+
+  /@vue/runtime-dom@3.5.13:
+    resolution: {integrity: sha512-dLaj94s93NYLqjLiyFzVs9X6dWhTdAlEAciC3Moq7gzAc13VJUdCnjjRurNM6uTLFATRHexHCTu/Xp3eW6yoog==, tarball: https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.5.13.tgz}
+    dependencies:
+      '@vue/reactivity': 3.5.13
+      '@vue/runtime-core': 3.5.13
+      '@vue/shared': 3.5.13
+      csstype: 3.1.3
+
+  /@vue/server-renderer@3.5.13(vue@3.5.13):
+    resolution: {integrity: sha512-wAi4IRJV/2SAW3htkTlB+dHeRmpTiVIK1OGLWV1yeStVSebSQQOwGwIq0D3ZIoBj2C2qpgz5+vX9iEBkTdk5YA==, tarball: https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.5.13.tgz}
+    peerDependencies:
+      vue: 3.5.13
+    dependencies:
+      '@vue/compiler-ssr': 3.5.13
+      '@vue/shared': 3.5.13
+      vue: 3.5.13
+
+  /@vue/shared@3.5.13:
+    resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==, tarball: https://registry.npmmirror.com/@vue/shared/-/shared-3.5.13.tgz}
+
+  /csstype@3.1.3:
+    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==, tarball: https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz}
+
+  /entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==, tarball: https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz}
+    engines: {node: '>=0.12'}
+
+  /esbuild@0.24.0:
+    resolution: {integrity: sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==, tarball: https://registry.npmmirror.com/esbuild/-/esbuild-0.24.0.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.24.0
+      '@esbuild/android-arm': 0.24.0
+      '@esbuild/android-arm64': 0.24.0
+      '@esbuild/android-x64': 0.24.0
+      '@esbuild/darwin-arm64': 0.24.0
+      '@esbuild/darwin-x64': 0.24.0
+      '@esbuild/freebsd-arm64': 0.24.0
+      '@esbuild/freebsd-x64': 0.24.0
+      '@esbuild/linux-arm': 0.24.0
+      '@esbuild/linux-arm64': 0.24.0
+      '@esbuild/linux-ia32': 0.24.0
+      '@esbuild/linux-loong64': 0.24.0
+      '@esbuild/linux-mips64el': 0.24.0
+      '@esbuild/linux-ppc64': 0.24.0
+      '@esbuild/linux-riscv64': 0.24.0
+      '@esbuild/linux-s390x': 0.24.0
+      '@esbuild/linux-x64': 0.24.0
+      '@esbuild/netbsd-x64': 0.24.0
+      '@esbuild/openbsd-arm64': 0.24.0
+      '@esbuild/openbsd-x64': 0.24.0
+      '@esbuild/sunos-x64': 0.24.0
+      '@esbuild/win32-arm64': 0.24.0
+      '@esbuild/win32-ia32': 0.24.0
+      '@esbuild/win32-x64': 0.24.0
+    dev: true
+
+  /estree-walker@2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==, tarball: https://registry.npmmirror.com/estree-walker/-/estree-walker-2.0.2.tgz}
+
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==, tarball: https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /leafer-editor@1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10):
+    resolution: {integrity: sha512-x145dltKFoG8PJZalvlWAcZryUbf59a7T9HxqbN7fh6eOKo2kUKbyKrCEuT6p4CzFNMgMnYP/9XHDkOHqtz5uQ==, tarball: https://registry.npmmirror.com/leafer-editor/-/leafer-editor-1.0.10.tgz}
+    dependencies:
+      '@leafer-editor/web': 1.0.10(@leafer-in/editor@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)(@leafer/interface@1.0.10)
+      '@leafer-in/arrow': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/editor': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-in/resize@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/html': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/scroll': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/text-editor': 1.0.10(@leafer-in/editor@1.0.10)(@leafer-in/interface@1.0.10)(@leafer-ui/core@1.0.10)(@leafer-ui/interface@1.0.10)
+      '@leafer-in/view': 1.0.10(@leafer-in/interface@1.0.10)(@leafer-ui/draw@1.0.10)(@leafer-ui/interface@1.0.10)
+      leafer-ui: 1.0.10
+    transitivePeerDependencies:
+      - '@leafer-in/interface'
+      - '@leafer-in/resize'
+      - '@leafer-ui/core'
+      - '@leafer-ui/draw'
+      - '@leafer-ui/interface'
+      - '@leafer/interface'
+    dev: false
+
+  /leafer-ui@1.0.10:
+    resolution: {integrity: sha512-M5TlaqbdnRX09aTXwGjmvWlBdxenxsgZx5lmC9sZK9GqNHD3zmqTWwoFZgYHMy6xMlOVshvKgrIhx5ZOMMCeDQ==, tarball: https://registry.npmmirror.com/leafer-ui/-/leafer-ui-1.0.10.tgz}
+    dependencies:
+      '@leafer-ui/core': 1.0.10
+      '@leafer-ui/draw': 1.0.10
+      '@leafer-ui/interaction-web': 1.0.10
+      '@leafer-ui/interface': 1.0.10
+      '@leafer-ui/partner': 1.0.10
+      '@leafer-ui/web': 1.0.10
+      '@leafer/core': 1.0.10
+      '@leafer/interface': 1.0.10
+      '@leafer/partner': 1.0.10
+      '@leafer/web': 1.0.10
+    dev: false
+
+  /leafer-vue@3.1.1(leafer-ui@1.0.10):
+    resolution: {integrity: sha512-zY7cVb0mo1aVy8YHo6DsVHxGY+lB4cKObXbpWoOB5+k9xcbi5jBcAMqPrL07hc1s7Mc/Hvl4NpPeFCVxZwhX3Q==, tarball: https://registry.npmmirror.com/leafer-vue/-/leafer-vue-3.1.1.tgz}
+    peerDependencies:
+      leafer-ui: '>= 1.0.2'
+    dependencies:
+      '@vue/runtime-core': 3.5.13
+      leafer-ui: 1.0.10
+      vue: 3.5.13
+    transitivePeerDependencies:
+      - typescript
+    dev: false
+
+  /magic-string@0.30.14:
+    resolution: {integrity: sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==, tarball: https://registry.npmmirror.com/magic-string/-/magic-string-0.30.14.tgz}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.0
+
+  /nanoid@3.3.8:
+    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.8.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  /openseadragon@5.0.0:
+    resolution: {integrity: sha512-S9aabSjmJg7Jfow1UItR5aXiKQLtkDWyRR5fxLeqT4vSYMvfscXUDfVS9snUN3JuIrHaSPJAlR4H2DYSn5DWRg==, tarball: https://registry.npmmirror.com/openseadragon/-/openseadragon-5.0.0.tgz}
+    dev: false
+
+  /picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==, tarball: https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz}
+
+  /postcss@8.4.49:
+    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.49.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  /rollup@4.27.4:
+    resolution: {integrity: sha512-RLKxqHEMjh/RGLsDxAEsaLO3mWgyoU6x9w6n1ikAzet4B3gI2/3yP6PWY2p9QzRTh6MfEIXB3MwsOY0Iv3vNrw==, tarball: https://registry.npmmirror.com/rollup/-/rollup-4.27.4.tgz}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+    dependencies:
+      '@types/estree': 1.0.6
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.27.4
+      '@rollup/rollup-android-arm64': 4.27.4
+      '@rollup/rollup-darwin-arm64': 4.27.4
+      '@rollup/rollup-darwin-x64': 4.27.4
+      '@rollup/rollup-freebsd-arm64': 4.27.4
+      '@rollup/rollup-freebsd-x64': 4.27.4
+      '@rollup/rollup-linux-arm-gnueabihf': 4.27.4
+      '@rollup/rollup-linux-arm-musleabihf': 4.27.4
+      '@rollup/rollup-linux-arm64-gnu': 4.27.4
+      '@rollup/rollup-linux-arm64-musl': 4.27.4
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.27.4
+      '@rollup/rollup-linux-riscv64-gnu': 4.27.4
+      '@rollup/rollup-linux-s390x-gnu': 4.27.4
+      '@rollup/rollup-linux-x64-gnu': 4.27.4
+      '@rollup/rollup-linux-x64-musl': 4.27.4
+      '@rollup/rollup-win32-arm64-msvc': 4.27.4
+      '@rollup/rollup-win32-ia32-msvc': 4.27.4
+      '@rollup/rollup-win32-x64-msvc': 4.27.4
+      fsevents: 2.3.3
+    dev: true
+
+  /source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  /vite@6.0.1:
+    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==, tarball: https://registry.npmmirror.com/vite/-/vite-6.0.1.tgz}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      jiti: '>=1.21.0'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+    dependencies:
+      esbuild: 0.24.0
+      postcss: 8.4.49
+      rollup: 4.27.4
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: true
+
+  /vue@3.5.13:
+    resolution: {integrity: sha512-wmeiSMxkZCSc+PM2w2VRsOYAZC8GdipNFRTsLSfodVqI9mbejKeXEGr8SckuLnrQPGe3oJN5c3K0vpoU9q/wCQ==, tarball: https://registry.npmmirror.com/vue/-/vue-3.5.13.tgz}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/compiler-dom': 3.5.13
+      '@vue/compiler-sfc': 3.5.13
+      '@vue/runtime-dom': 3.5.13
+      '@vue/server-renderer': 3.5.13(vue@3.5.13)
+      '@vue/shared': 3.5.13
