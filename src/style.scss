@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.openseadragon-canvas {
+  &:focus-visible {
+    outline: none;
+  }
+  canvas {
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

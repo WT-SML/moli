@@ -1,89 +1,112 @@
 <script setup>
-import { App, Group, Rect, Editor } from "leafer-editor"
-// import { App, Group, Rect } from "leafer-ui"
+import _ from "lodash"
+import OSD from "openseadragon"
+import { onMounted, reactive, ref, computed } from "vue"
+import { defaultShapes } from "@/tools/default-shapes"
+import { defaultOsdConf } from "@/tools/default-osd-conf"
+import { randomPoints } from "@/tools"
+import { Moli } from "@/moli"
+import { useFps } from "@vueuse/core"
 
-var total = 100 // 100万个， 可设置个数
+const fps = useFps() // fps
 
-Rect.changeAttr("editable", true)
+const osdRef = ref(null) // osd dom
 
-function create() {
-  var app = new App({
-    view: window,
-    editor: new Editor(), // 会自动创建 editor实例、tree层、sky层
-    usePartRender: false
-  })
-
-  var leafer = app.tree
-
-  // 创建total
-  var startTime = Date.now()
-  createRect(leafer, total)
-  var createTime = (Date.now() - startTime) / 1000
-
-  // 布局与渲染
-  startTime = Date.now()
-  leafer.once("render.end", () => {
-    var layoutAndRenderTime = (Date.now() - startTime) / 1000
-    console.log(total, createTime, layoutAndRenderTime)
-    // window.showResult()
-  })
-}
-
-function createRect(view, num) {
-  var space = 100 * 100 * 1.5
-  var column = num > 25 ? 10 : 5
-  var group
-  for (var i = 0; i < num; i++) {
-    group = new Group()
-    group.x = space * (i % column)
-    group.y = space * Math.floor(i / column)
-    view.add(group)
-    createBlock(group, 0, 0, `hsl(${i * 3},50%, 50%)`)
+const state = reactive({
+  viewer: null, // osd 查看器
+  moli: null, // moli对象
+  shapes: [], // 图形列表
+})
+// 初始化painter
+const initMoli = () => {
+  const options = {
+    viewer: state.viewer, // osd 查看器
+    shapes: state.shapes, // 图形列表
+    // 监听新增形状
+    onAdd: (shape) => {
+      state.shapes.push(shape)
+    },
+    // 监听删除形状
+    onRemove: (shape) => {
+      state.shapes = state.shapes.filter((item) => item.id !== shape.id)
+    },
+    // 监听更新形状
+    onUpdate: (shape) => {
+      for (const k in state.shapes) {
+        if (state.shapes[k].id === shape.id) {
+          state.shapes[k] = shape
+        }
+      }
+    },
   }
+  state.moli = new Moli(options)
 }
-
-// 创建1万个矩形
-function createBlock(group, startX, startY, hsl) {
-  var y, rect
-  for (var i = 0; i < 100; i++) {
-    if (i % 10 === 0) startX += 100
-    y = startY
-    for (var j = 0; j < 100; j++) {
-      if (j % 10 === 0) y += 100
-      rect = new Rect(null)
-      rect.x = startX
-      rect.y = y
-      rect.height = 100
-      rect.width = 100
-      rect.fill = hsl
-      rect.draggable = true
-      group.add(rect)
-      y += 120
-    }
-    startX += 120
+// 初始化osd
+const initViewer = () => {
+  const tileSources =
+    "http://openseadragon.github.io/example-images/duomo/duomo.dzi"
+  const options = {
+    ..._.cloneDeep(defaultOsdConf),
+    element: osdRef.value,
+    tileSources, // 瓦片源
   }
+  state.viewer = new OSD.Viewer(options)
 }
-
-window.onload = function () {
-  create()
-}
-// import { App, Rect, Editor } from "leafer-editor"
-
-// const app = new App({ view: window })
-
-// app.tree = app.addLeafer()
-// app.sky = app.addLeafer({ type: "draw", usePartRender: false })
-
-// app.editor = new Editor()
-// app.sky.add(app.editor)
-// const size = 10000
-// for (let i = 0; i < size; i++) {
-//   const x = Math.random() * size
-//   const y = Math.random() * size
-//   app.tree.add(Rect.one({ editable: true, stroke: "#f00" }, x, y))
-// }
+// 渲染默认的 shapes
+const renderShapes = () => {}
+onMounted(() => {
+  // 初始化osd
+  initViewer()
+  state.viewer.addHandler("open", () => {
+    // 初始化 painter
+    initMoli()
+    // 渲染默认的 shapes
+    renderShapes()
+  })
+})
 </script>
 
-<template></template>
+<template>
+  <div class="moli">
+    <div class="menu common-box"></div>
+    <div class="main">
+      <div ref="osdRef" class="osd common-box"></div>
+      <div class="debug common-box"></div>
+    </div>
+  </div>
+</template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.moli {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  .common-box {
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .menu {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  .main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    .osd {
+      flex-grow: 1;
+    }
+    .debug {
+      margin-top: 20px;
+      height: 50px;
+      flex-shrink: 0;
+    }
+  }
+}
+</style>

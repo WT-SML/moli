@@ -1,15 +1,14 @@
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue"
-import { isCustomElement } from "leafer-vue/compiler"
+import { fileURLToPath, URL } from "node:url"
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue({
-      template: {
-        compilerOptions: {
-          isCustomElement,
-        },
-      },
-    }),
-  ],
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "~": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
 })

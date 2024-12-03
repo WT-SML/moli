@@ -9,10 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "leafer-editor": "^1.0.10",
-    "leafer-ui": "^1.0.10",
-    "leafer-vue": "^3.1.1",
+    "@vueuse/core": "^12.0.0",
+    "lodash": "^4.17.21",
     "openseadragon": "^5.0.0",
+    "pixi.js": "^8.6.3",
+    "sass": "^1.81.1",
     "vue": "^3.5.13"
   },
   "devDependencies": {
