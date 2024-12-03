@@ -5,7 +5,7 @@ import { onMounted, reactive, ref, computed } from "vue"
 import { defaultShapes } from "@/tools/default-shapes"
 import { defaultOsdConf } from "@/tools/default-osd-conf"
 import { randomPoints } from "@/tools"
-import { Moli } from "@/moli"
+import { createMoli } from "@/moli"
 import { useFps } from "@vueuse/core"
 
 const fps = useFps() // fps
@@ -22,6 +22,7 @@ const initMoli = () => {
   const options = {
     viewer: state.viewer, // osd 查看器
     shapes: state.shapes, // 图形列表
+    color: "#f00",
     // 监听新增形状
     onAdd: (shape) => {
       state.shapes.push(shape)
@@ -39,7 +40,7 @@ const initMoli = () => {
       }
     },
   }
-  state.moli = new Moli(options)
+  state.moli = createMoli(options)
 }
 // 初始化osd
 const initViewer = () => {
@@ -71,7 +72,7 @@ onMounted(() => {
     <div class="menu common-box"></div>
     <div class="main">
       <div ref="osdRef" class="osd common-box"></div>
-      <div class="debug common-box"></div>
+      <div class="debug common-box">FPS:{{ fps }}</div>
     </div>
   </div>
 </template>
